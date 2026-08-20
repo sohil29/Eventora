@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     baseURL: 'https://eventora-x1il.onrender.com/api',
-    timeout: 30000,
+    timeout: 60000,
 });
 
 api.interceptors.request.use((config) => {
